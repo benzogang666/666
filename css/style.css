@@ -27,3 +27,9 @@ div {
   height: 50px;
   background: #ee8c8c;
 }
+
+@media (max-width: 828px) {
+  .body {
+    background: #000;
+  }
+}
