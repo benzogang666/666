@@ -28,7 +28,7 @@ div {
   background: #ee8c8c;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 415px) {
   .body {
     background: #000;
   }
