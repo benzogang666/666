@@ -1,1 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  color: #735959;
+  height: 50px;
+  background: #c4b6b6;
+}
+
+.body {
+  color: #d17b7b;
+  height: 100px;
+  background: #463d3d;
+}
+
+.foot {
+  color: #b00000;
+  height: 50px;
+  background: #ee8c8c;
+}
