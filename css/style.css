@@ -1,4 +1,25 @@
-<div class="head">
-      <div class="selection"></div>
-      <div class="selection"></div>
-    </div>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+@media (max-width: 430px) {
+  .head {
+    height: 170px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background: #9f9f9f;
+    overflow: hidden;
+  }
+
+  .selection {
+    width: 150px;
+    height: 100%;
+    margin-right: 10px;
+    border-radius: 20px;
+    background: #c6c6c6;
+  }
+}
