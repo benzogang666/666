@@ -1,7 +1,7 @@
 const col = document.querySelector(".col");
 
-const custom = () => {
-  col.style.backgroundColor = "grey";
-};
+function custom() {
+  col.style.backgroundColor = "green";
+}
 
-col.addEventListener("click", custom);
+addEventListener("click", custom);
