@@ -4,30 +4,32 @@
   box-sizing: border-box;
 }
 
-body {
-  background: #646464;
-}
+@media (max-width: 440px) {
+  body {
+    background: #646464;
+  }
 
-.side {
-  width: 430px;
-  height: 700px;
-  background: #ffd573;
-}
+  .side {
+    width: 430px;
+    height: 700px;
+    background: #ffd573;
+  }
 
-.rows {
-  height: 100px;
-  margin-top: 5px;
-  display: grid;
-  grid-auto-flow: column;
-  align-items: center;
-  background: #272135;
-  overflow-x: auto;
-}
+  .rows {
+    height: 100px;
+    margin-top: 5px;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    background: #272135;
+    overflow-x: auto;
+  }
 
-.row {
-  width: 80px;
-  height: 80px;
-  margin-right: 10px;
-  background: #3f3284;
-  border-radius: 20px;
+  .row {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    background: #3f3284;
+    border-radius: 20px;
+  }
 }
