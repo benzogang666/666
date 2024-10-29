@@ -6,7 +6,7 @@
 
 @media (max-width: 440px) {
   .head {
-    height: 80px;
+    height: 100px;
     display: grid;
     grid-auto-flow: column;
     align-items: center;
@@ -16,15 +16,15 @@
   }
 
    .col {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     background: #555;
     border-radius: 10px;
   }
 
   .row {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     background: #ffa200;
     border-radius: 10px;
   }
