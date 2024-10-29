@@ -1,7 +1,7 @@
-const row = document.querySelector(".row");
+const col = document.querySelector(".col");
 
 const custom = () => {
-  row.style.backgroundColor = "gray";
+  col.style.backgroundColor = "grey";
 };
 
-row.addEventListener("click", custom);
+col.addEventListener("click", custom);
